@@ -5,7 +5,7 @@ $password = '';
  
  
  $conn = mysqli_connect($hostname, $username, $password);
- mysqli_set_charset($connect,"utf8");
+ mysqli_set_charset($conn,"utf8");
  if(!$connect)
  {  
      echo 'that bai';
