@@ -4,7 +4,7 @@ $username = 'root';
 $password = '';
  
  
- $connect = mysqli_connect($hostname, $username, $password);
+ $conn = mysqli_connect($hostname, $username, $password);
  mysqli_set_charset($connect,"utf8");
  if(!$connect)
  {  
